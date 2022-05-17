@@ -23,4 +23,5 @@ jobs:
         file: ./DockerFile
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/payment-service:${{ github.sha }}
+
         
