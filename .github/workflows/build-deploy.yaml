@@ -22,4 +22,4 @@ jobs:
         context: .
         file: ./DockerFile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/user-service:${{ github.sha }}
+        tags: ${{ secrets.DOCKER_USERNAME }}/payment-service:${{ github.sha }}
